@@ -1,0 +1,729 @@
+[
+  {
+    "dataset": "cleveland",
+    "method": "single_catboost",
+    "ensemble_type": "single",
+    "auc": 0.896166,
+    "pr_auc": 0.8886,
+    "n_models": 1,
+    "source_config": "s3_catboost_cleveland_default_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_elastic_net",
+    "ensemble_type": "single",
+    "auc": 0.904238,
+    "pr_auc": 0.8978,
+    "n_models": 1,
+    "source_config": "s3_elastic_net_cleveland_default_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_extra_trees",
+    "ensemble_type": "single",
+    "auc": 0.904545,
+    "pr_auc": 0.8907,
+    "n_models": 1,
+    "source_config": "s3_extra_trees_cleveland_dataset_native"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_knn",
+    "ensemble_type": "single",
+    "auc": 0.913143,
+    "pr_auc": 0.9036,
+    "n_models": 1,
+    "source_config": "s3_knn_cleveland_competition_native"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_lasso",
+    "ensemble_type": "single",
+    "auc": 0.904194,
+    "pr_auc": 0.8974,
+    "n_models": 1,
+    "source_config": "s3_lasso_cleveland_competition_native"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_lightgbm",
+    "ensemble_type": "single",
+    "auc": 0.915731,
+    "pr_auc": 0.9156,
+    "n_models": 1,
+    "source_config": "s3_lightgbm_cleveland_dataset_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_logistic_regression",
+    "ensemble_type": "single",
+    "auc": 0.90472,
+    "pr_auc": 0.8985,
+    "n_models": 1,
+    "source_config": "s3_logistic_regression_cleveland_dataset_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_mlp",
+    "ensemble_type": "single",
+    "auc": 0.901606,
+    "pr_auc": 0.8879,
+    "n_models": 1,
+    "source_config": "s3_mlp_cleveland_dataset_native"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_random_forest",
+    "ensemble_type": "single",
+    "auc": 0.907659,
+    "pr_auc": 0.9015,
+    "n_models": 1,
+    "source_config": "s3_random_forest_cleveland_dataset_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_realmlp",
+    "ensemble_type": "single",
+    "auc": 0.894587,
+    "pr_auc": 0.8917,
+    "n_models": 1,
+    "source_config": "s3_realmlp_cleveland_competition_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_ridge",
+    "ensemble_type": "single",
+    "auc": 0.908098,
+    "pr_auc": 0.9053,
+    "n_models": 1,
+    "source_config": "s3_ridge_cleveland_dataset_native"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_svm",
+    "ensemble_type": "single",
+    "auc": 0.904808,
+    "pr_auc": 0.903,
+    "n_models": 1,
+    "source_config": "s3_svm_cleveland_dataset_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_tabpfn",
+    "ensemble_type": "single",
+    "auc": 0.912879,
+    "pr_auc": 0.9019,
+    "n_models": 1,
+    "source_config": "s3_tabpfn_cleveland_dataset_native"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "single_xgboost",
+    "ensemble_type": "single",
+    "auc": 0.887546,
+    "pr_auc": 0.8822,
+    "n_models": 1,
+    "source_config": "s3_xgboost_cleveland_dataset_smote"
+  },
+  {
+    "dataset": "cleveland",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.917047,
+    "pr_auc": 0.9113,
+    "n_models": 14
+  },
+  {
+    "dataset": "cleveland",
+    "method": "hillclimb",
+    "ensemble_type": "hillclimb",
+    "auc": 0.919964,
+    "pr_auc": 0.9164,
+    "n_models": 2,
+    "selected_models": [
+      "lightgbm",
+      "knn"
+    ]
+  },
+  {
+    "dataset": "cleveland",
+    "method": "simple_average",
+    "ensemble_type": "simple_avg",
+    "auc": 0.916477,
+    "pr_auc": 0.9116,
+    "n_models": 14
+  },
+  {
+    "dataset": "cleveland",
+    "method": "top3_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.918845,
+    "pr_auc": 0.9134,
+    "n_models": 3,
+    "selected_models": [
+      "lightgbm",
+      "knn",
+      "tabpfn"
+    ]
+  },
+  {
+    "dataset": "cleveland",
+    "method": "top5_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.917113,
+    "pr_auc": 0.9121,
+    "n_models": 5,
+    "selected_models": [
+      "lightgbm",
+      "knn",
+      "tabpfn",
+      "ridge",
+      "random_forest"
+    ]
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_catboost",
+    "ensemble_type": "single",
+    "auc": 0.888172,
+    "pr_auc": 0.8174,
+    "n_models": 1,
+    "source_config": "s3_catboost_hungarian_default_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_elastic_net",
+    "ensemble_type": "single",
+    "auc": 0.9029,
+    "pr_auc": 0.8553,
+    "n_models": 1,
+    "source_config": "s3_elastic_net_hungarian_competition_smote"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_extra_trees",
+    "ensemble_type": "single",
+    "auc": 0.910678,
+    "pr_auc": 0.8488,
+    "n_models": 1,
+    "source_config": "s3_extra_trees_hungarian_dataset_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_knn",
+    "ensemble_type": "single",
+    "auc": 0.894069,
+    "pr_auc": 0.8416,
+    "n_models": 1,
+    "source_config": "s3_knn_hungarian_competition_smote"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_lasso",
+    "ensemble_type": "single",
+    "auc": 0.904581,
+    "pr_auc": 0.8585,
+    "n_models": 1,
+    "source_config": "s3_lasso_hungarian_dataset_smote"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_lightgbm",
+    "ensemble_type": "single",
+    "auc": 0.884685,
+    "pr_auc": 0.8471,
+    "n_models": 1,
+    "source_config": "s3_lightgbm_hungarian_dataset_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_logistic_regression",
+    "ensemble_type": "single",
+    "auc": 0.903252,
+    "pr_auc": 0.8546,
+    "n_models": 1,
+    "source_config": "s3_logistic_regression_hungarian_competition_smote"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_mlp",
+    "ensemble_type": "single",
+    "auc": 0.898033,
+    "pr_auc": 0.8369,
+    "n_models": 1,
+    "source_config": "s3_mlp_hungarian_competition_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_random_forest",
+    "ensemble_type": "single",
+    "auc": 0.889251,
+    "pr_auc": 0.8368,
+    "n_models": 1,
+    "source_config": "s3_random_forest_hungarian_dataset_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_realmlp",
+    "ensemble_type": "single",
+    "auc": 0.885337,
+    "pr_auc": 0.8724,
+    "n_models": 1,
+    "source_config": "s3_realmlp_hungarian_competition_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_ridge",
+    "ensemble_type": "single",
+    "auc": 0.901094,
+    "pr_auc": 0.8582,
+    "n_models": 1,
+    "source_config": "s3_ridge_hungarian_dataset_smote"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_svm",
+    "ensemble_type": "single",
+    "auc": 0.906564,
+    "pr_auc": 0.8573,
+    "n_models": 1,
+    "source_config": "s3_svm_hungarian_competition_smote"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_tabpfn",
+    "ensemble_type": "single",
+    "auc": 0.919912,
+    "pr_auc": 0.8545,
+    "n_models": 1,
+    "source_config": "s3_tabpfn_hungarian_competition_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "single_xgboost",
+    "ensemble_type": "single",
+    "auc": 0.873444,
+    "pr_auc": 0.8238,
+    "n_models": 1,
+    "source_config": "s3_xgboost_hungarian_dataset_native"
+  },
+  {
+    "dataset": "hungarian",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.912786,
+    "pr_auc": 0.8775,
+    "n_models": 14
+  },
+  {
+    "dataset": "hungarian",
+    "method": "hillclimb",
+    "ensemble_type": "hillclimb",
+    "auc": 0.919912,
+    "pr_auc": 0.8545,
+    "n_models": 1,
+    "selected_models": [
+      "tabpfn"
+    ]
+  },
+  {
+    "dataset": "hungarian",
+    "method": "simple_average",
+    "ensemble_type": "simple_avg",
+    "auc": 0.910879,
+    "pr_auc": 0.8774,
+    "n_models": 14
+  },
+  {
+    "dataset": "hungarian",
+    "method": "top3_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.919284,
+    "pr_auc": 0.854,
+    "n_models": 3,
+    "selected_models": [
+      "tabpfn",
+      "extra_trees",
+      "svm"
+    ]
+  },
+  {
+    "dataset": "hungarian",
+    "method": "top5_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.914643,
+    "pr_auc": 0.8523,
+    "n_models": 5,
+    "selected_models": [
+      "tabpfn",
+      "extra_trees",
+      "svm",
+      "lasso",
+      "logistic_regression"
+    ]
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_catboost",
+    "ensemble_type": "single",
+    "auc": 0.767391,
+    "pr_auc": 0.97,
+    "n_models": 1,
+    "source_config": "s3_catboost_switzerland_default_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_elastic_net",
+    "ensemble_type": "single",
+    "auc": 0.788043,
+    "pr_auc": 0.9605,
+    "n_models": 1,
+    "source_config": "s3_elastic_net_switzerland_dataset_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_extra_trees",
+    "ensemble_type": "single",
+    "auc": 0.751087,
+    "pr_auc": 0.9689,
+    "n_models": 1,
+    "source_config": "s3_extra_trees_switzerland_dataset_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_knn",
+    "ensemble_type": "single",
+    "auc": 0.713587,
+    "pr_auc": 0.9639,
+    "n_models": 1,
+    "source_config": "s3_knn_switzerland_competition_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_lasso",
+    "ensemble_type": "single",
+    "auc": 0.75,
+    "pr_auc": 0.9564,
+    "n_models": 1,
+    "source_config": "s3_lasso_switzerland_dataset_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_lightgbm",
+    "ensemble_type": "single",
+    "auc": 0.858696,
+    "pr_auc": 0.9891,
+    "n_models": 1,
+    "source_config": "s3_lightgbm_switzerland_default_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_logistic_regression",
+    "ensemble_type": "single",
+    "auc": 0.706522,
+    "pr_auc": 0.9623,
+    "n_models": 1,
+    "source_config": "s3_logistic_regression_switzerland_competition_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_mlp",
+    "ensemble_type": "single",
+    "auc": 0.73913,
+    "pr_auc": 0.9784,
+    "n_models": 1,
+    "source_config": "s3_mlp_switzerland_default_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_random_forest",
+    "ensemble_type": "single",
+    "auc": 0.75,
+    "pr_auc": 0.9649,
+    "n_models": 1,
+    "source_config": "s3_random_forest_switzerland_dataset_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_realmlp",
+    "ensemble_type": "single",
+    "auc": 0.727174,
+    "pr_auc": 0.9697,
+    "n_models": 1,
+    "source_config": "s3_realmlp_switzerland_competition_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_ridge",
+    "ensemble_type": "single",
+    "auc": 0.708696,
+    "pr_auc": 0.9624,
+    "n_models": 1,
+    "source_config": "s3_ridge_switzerland_competition_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_svm",
+    "ensemble_type": "single",
+    "auc": 0.690217,
+    "pr_auc": 0.9605,
+    "n_models": 1,
+    "source_config": "s3_svm_switzerland_competition_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_tabpfn",
+    "ensemble_type": "single",
+    "auc": 0.71413,
+    "pr_auc": 0.9572,
+    "n_models": 1,
+    "source_config": "s3_tabpfn_switzerland_competition_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "single_xgboost",
+    "ensemble_type": "single",
+    "auc": 0.790217,
+    "pr_auc": 0.9685,
+    "n_models": 1,
+    "source_config": "s3_xgboost_switzerland_dataset_smote"
+  },
+  {
+    "dataset": "switzerland",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.754348,
+    "pr_auc": 0.9719,
+    "n_models": 14
+  },
+  {
+    "dataset": "switzerland",
+    "method": "hillclimb",
+    "ensemble_type": "hillclimb",
+    "auc": 0.858696,
+    "pr_auc": 0.9891,
+    "n_models": 1,
+    "selected_models": [
+      "lightgbm"
+    ]
+  },
+  {
+    "dataset": "switzerland",
+    "method": "simple_average",
+    "ensemble_type": "simple_avg",
+    "auc": 0.744565,
+    "pr_auc": 0.9626,
+    "n_models": 14
+  },
+  {
+    "dataset": "switzerland",
+    "method": "top3_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.829348,
+    "pr_auc": 0.9857,
+    "n_models": 3,
+    "selected_models": [
+      "lightgbm",
+      "xgboost",
+      "elastic_net"
+    ]
+  },
+  {
+    "dataset": "switzerland",
+    "method": "top5_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.803261,
+    "pr_auc": 0.9813,
+    "n_models": 5,
+    "selected_models": [
+      "lightgbm",
+      "xgboost",
+      "elastic_net",
+      "catboost",
+      "extra_trees"
+    ]
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_catboost",
+    "ensemble_type": "single",
+    "auc": 0.717858,
+    "pr_auc": 0.8696,
+    "n_models": 1,
+    "source_config": "s3_catboost_va_longbeach_default_smote"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_elastic_net",
+    "ensemble_type": "single",
+    "auc": 0.676536,
+    "pr_auc": 0.8204,
+    "n_models": 1,
+    "source_config": "s3_elastic_net_va_longbeach_competition_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_extra_trees",
+    "ensemble_type": "single",
+    "auc": 0.716542,
+    "pr_auc": 0.8494,
+    "n_models": 1,
+    "source_config": "s3_extra_trees_va_longbeach_dataset_smote"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_knn",
+    "ensemble_type": "single",
+    "auc": 0.700355,
+    "pr_auc": 0.8392,
+    "n_models": 1,
+    "source_config": "s3_knn_va_longbeach_dataset_smote"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_lasso",
+    "ensemble_type": "single",
+    "auc": 0.677194,
+    "pr_auc": 0.8416,
+    "n_models": 1,
+    "source_config": "s3_lasso_va_longbeach_dataset_smote"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_lightgbm",
+    "ensemble_type": "single",
+    "auc": 0.729241,
+    "pr_auc": 0.891,
+    "n_models": 1,
+    "source_config": "s3_lightgbm_va_longbeach_default_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_logistic_regression",
+    "ensemble_type": "single",
+    "auc": 0.667325,
+    "pr_auc": 0.8139,
+    "n_models": 1,
+    "source_config": "s3_logistic_regression_va_longbeach_competition_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_mlp",
+    "ensemble_type": "single",
+    "auc": 0.705356,
+    "pr_auc": 0.8169,
+    "n_models": 1,
+    "source_config": "s3_mlp_va_longbeach_default_smote"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_random_forest",
+    "ensemble_type": "single",
+    "auc": 0.716542,
+    "pr_auc": 0.8765,
+    "n_models": 1,
+    "source_config": "s3_random_forest_va_longbeach_dataset_smote"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_realmlp",
+    "ensemble_type": "single",
+    "auc": 0.727991,
+    "pr_auc": 0.851,
+    "n_models": 1,
+    "source_config": "s3_realmlp_va_longbeach_competition_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_ridge",
+    "ensemble_type": "single",
+    "auc": 0.679432,
+    "pr_auc": 0.8205,
+    "n_models": 1,
+    "source_config": "s3_ridge_va_longbeach_dataset_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_svm",
+    "ensemble_type": "single",
+    "auc": 0.683906,
+    "pr_auc": 0.8442,
+    "n_models": 1,
+    "source_config": "s3_svm_va_longbeach_default_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_tabpfn",
+    "ensemble_type": "single",
+    "auc": 0.672325,
+    "pr_auc": 0.8301,
+    "n_models": 1,
+    "source_config": "s3_tabpfn_va_longbeach_dataset_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "single_xgboost",
+    "ensemble_type": "single",
+    "auc": 0.696934,
+    "pr_auc": 0.8603,
+    "n_models": 1,
+    "source_config": "s3_xgboost_va_longbeach_dataset_native"
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.721542,
+    "pr_auc": 0.8585,
+    "n_models": 14
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "hillclimb",
+    "ensemble_type": "hillclimb",
+    "auc": 0.757073,
+    "pr_auc": 0.884,
+    "n_models": 3,
+    "selected_models": [
+      "lightgbm",
+      "realmlp",
+      "catboost"
+    ]
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "simple_average",
+    "ensemble_type": "simple_avg",
+    "auc": 0.714173,
+    "pr_auc": 0.8511,
+    "n_models": 14
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "top3_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.757073,
+    "pr_auc": 0.884,
+    "n_models": 3,
+    "selected_models": [
+      "lightgbm",
+      "realmlp",
+      "catboost"
+    ]
+  },
+  {
+    "dataset": "va_longbeach",
+    "method": "top5_rank_blend",
+    "ensemble_type": "top_k",
+    "auc": 0.747533,
+    "pr_auc": 0.8814,
+    "n_models": 5,
+    "selected_models": [
+      "lightgbm",
+      "realmlp",
+      "catboost",
+      "random_forest",
+      "extra_trees"
+    ]
+  }
+]

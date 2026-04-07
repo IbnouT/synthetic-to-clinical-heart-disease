@@ -1,0 +1,240 @@
+{
+  "model": "xgboost",
+  "dataset": "cleveland",
+  "tuning": "competition",
+  "imbalance": "smote",
+  "n_folds": 10,
+  "oof_auc": 0.8768643621688016,
+  "oof_pr_auc": 0.8659675516417986,
+  "mean_fold_auc": 0.8852516968325791,
+  "std_fold_auc": 0.031732959266633366,
+  "metrics": {
+    "auc": 0.8768643621688016,
+    "pr_auc": 0.8659675516417986,
+    "accuracy": 0.7854785478547854,
+    "precision": 0.7605633802816901,
+    "recall": 0.7769784172661871,
+    "f1": 0.7686832740213523,
+    "threshold": 0.15796823799610138
+  },
+  "runtime_s": 160.04,
+  "best_params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "learning_rate": 0.01,
+    "max_depth": 2,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "n_estimators": 10000,
+    "n_jobs": -1,
+    "verbosity": 0
+  },
+  "per_fold_params": [
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.865546218487395,
+      "pr_auc": 0.8282176973353443,
+      "accuracy": 0.7741935483870968,
+      "precision": 0.7333333333333333,
+      "recall": 0.7857142857142857,
+      "f1": 0.7586206896551724,
+      "threshold": 0.1635332554578781
+    },
+    {
+      "auc": 0.9621848739495797,
+      "pr_auc": 0.9643962848297212,
+      "accuracy": 0.8064516129032258,
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1": 0.8,
+      "threshold": 0.8041940331459045
+    },
+    {
+      "auc": 0.8697478991596639,
+      "pr_auc": 0.8419825868423786,
+      "accuracy": 0.7096774193548387,
+      "precision": 0.6666666666666666,
+      "recall": 0.7142857142857143,
+      "f1": 0.6896551724137931,
+      "threshold": 0.9533410668373108
+    },
+    {
+      "auc": 0.909502262443439,
+      "pr_auc": 0.8691669441669441,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.7857142857142857,
+      "recall": 0.8461538461538461,
+      "f1": 0.8148148148148148,
+      "threshold": 0.27155110239982605
+    },
+    {
+      "auc": 0.8839285714285714,
+      "pr_auc": 0.9037256603046075,
+      "accuracy": 0.8,
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1": 0.8,
+      "threshold": 0.9011975526809692
+    },
+    {
+      "auc": 0.84375,
+      "pr_auc": 0.8682489662531678,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1": 0.8,
+      "threshold": 0.5573397278785706
+    },
+    {
+      "auc": 0.8928571428571428,
+      "pr_auc": 0.9063270063270061,
+      "accuracy": 0.8,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857,
+      "threshold": 0.4873562753200531
+    },
+    {
+      "auc": 0.8571428571428571,
+      "pr_auc": 0.8758225108225106,
+      "accuracy": 0.7333333333333333,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143,
+      "threshold": 0.9140269756317139
+    },
+    {
+      "auc": 0.8973214285714286,
+      "pr_auc": 0.8947976626548053,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517,
+      "threshold": 0.5406153202056885
+    },
+    {
+      "auc": 0.8705357142857143,
+      "pr_auc": 0.8533516903264802,
+      "accuracy": 0.7333333333333333,
+      "precision": 0.75,
+      "recall": 0.6428571428571429,
+      "f1": 0.6923076923076923,
+      "threshold": 0.03567033261060715
+    }
+  ],
+  "scenario": 4,
+  "feature_set": "raw+competition_stats",
+  "n_samples": 303,
+  "prevalence": 45.9
+}

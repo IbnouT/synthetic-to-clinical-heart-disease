@@ -1,0 +1,175 @@
+{
+  "model": "knn",
+  "dataset": "cleveland",
+  "feature_set": "raw",
+  "tuning": "competition",
+  "imbalance": "smote",
+  "scenario": 3,
+  "n_folds": 10,
+  "oof_auc": 0.912616248464643,
+  "oof_pr_auc": 0.9048145951273403,
+  "mean_fold_auc": 0.9165804783451842,
+  "std_fold_auc": 0.04419068093391321,
+  "metrics": {
+    "auc": 0.912616248464643,
+    "pr_auc": 0.9048145951273403,
+    "accuracy": 0.8250825082508251,
+    "precision": 0.8412698412698413,
+    "recall": 0.762589928057554,
+    "f1": 0.8,
+    "threshold": 0.5734655973752397
+  },
+  "runtime_s": 1.57,
+  "best_params": {
+    "n_neighbors": 21,
+    "weights": "distance",
+    "metric": "manhattan",
+    "n_jobs": -1
+  },
+  "per_fold_params": [
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.9369747899159664,
+      "pr_auc": 0.94949329846355,
+      "accuracy": 0.8387096774193549,
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517
+    },
+    {
+      "auc": 0.9789915966386554,
+      "pr_auc": 0.9767984116723613,
+      "accuracy": 0.9032258064516129,
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.8888888888888888
+    },
+    {
+      "auc": 0.8403361344537814,
+      "pr_auc": 0.762216553287982,
+      "accuracy": 0.8064516129032258,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857
+    },
+    {
+      "auc": 0.9095022624434388,
+      "pr_auc": 0.8748271838769577,
+      "accuracy": 0.8,
+      "precision": 0.8181818181818182,
+      "recall": 0.6923076923076923,
+      "f1": 0.75
+    },
+    {
+      "auc": 0.9419642857142857,
+      "pr_auc": 0.9452052750924931,
+      "accuracy": 0.8,
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1": 0.8
+    },
+    {
+      "auc": 0.8883928571428571,
+      "pr_auc": 0.9082626896912609,
+      "accuracy": 0.8,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273
+    },
+    {
+      "auc": 0.9821428571428571,
+      "pr_auc": 0.9786891679748821,
+      "accuracy": 0.8666666666666667,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333334
+    },
+    {
+      "auc": 0.8660714285714286,
+      "pr_auc": 0.8799778803068277,
+      "accuracy": 0.7,
+      "precision": 0.6666666666666666,
+      "recall": 0.7142857142857143,
+      "f1": 0.6896551724137931
+    },
+    {
+      "auc": 0.9330357142857143,
+      "pr_auc": 0.9503968253968254,
+      "accuracy": 0.9333333333333333,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
+    },
+    {
+      "auc": 0.8883928571428571,
+      "pr_auc": 0.9017470624613482,
+      "accuracy": 0.8,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693
+    }
+  ],
+  "n_samples": 303,
+  "prevalence": 45.9
+}

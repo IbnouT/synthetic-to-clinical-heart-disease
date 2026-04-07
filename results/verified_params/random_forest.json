@@ -1,0 +1,17 @@
+{
+  "model": "random_forest",
+  "feature_set": "raw",
+  "params": {
+    "n_estimators": 1000,
+    "max_depth": 8,
+    "min_samples_leaf": 80,
+    "min_samples_split": 150,
+    "max_features": 0.7,
+    "bootstrap": true,
+    "class_weight": "balanced",
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "cv_auc": 0.952220,
+  "source": "kaggle-s6e2/src/done/run_cb_origstats.py"
+}

@@ -1,0 +1,12 @@
+{
+    "model": "knn",
+    "feature_set": "raw",
+    "params": {
+        "n_neighbors": 21,
+        "weights": "distance",
+        "metric": "manhattan",
+        "n_jobs": -1
+    },
+    "cv_auc": 0.944850,
+    "source": "kaggle-s6e2/src/done/run_tabpfn_diversity.py"
+}

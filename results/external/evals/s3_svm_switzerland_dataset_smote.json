@@ -1,0 +1,257 @@
+{
+  "model": "svm",
+  "dataset": "switzerland",
+  "tuning": "dataset",
+  "imbalance": "smote",
+  "n_folds": 15,
+  "oof_auc": 0.601086956521739,
+  "oof_pr_auc": 0.9312947679720246,
+  "mean_fold_auc": 0.531159420289855,
+  "std_fold_auc": 0.27408743777392214,
+  "metrics": {
+    "auc": 0.601086956521739,
+    "pr_auc": 0.9312947679720246,
+    "accuracy": 0.8699186991869918,
+    "precision": 0.9541284403669725,
+    "recall": 0.9043478260869565,
+    "f1": 0.9285714285714286,
+    "threshold": 0.610599872786097
+  },
+  "runtime_s": 126.65,
+  "best_params": {
+    "C": 9.850344639193041,
+    "kernel": "sigmoid",
+    "probability": true,
+    "class_weight": null,
+    "gamma": 0.0002610459468980751
+  },
+  "per_fold_params": [
+    {
+      "C": 9.850344639193041,
+      "kernel": "sigmoid",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 0.0002610459468980751
+    },
+    {
+      "C": 0.44288851819609776,
+      "kernel": "sigmoid",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 8.469125214902517
+    },
+    {
+      "C": 42.89856628337361,
+      "kernel": "rbf",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 3.1587800561968344
+    },
+    {
+      "C": 14.996288325844699,
+      "kernel": "sigmoid",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 0.1281134661872643
+    },
+    {
+      "C": 0.019802186464686088,
+      "kernel": "sigmoid",
+      "probability": true,
+      "class_weight": "balanced",
+      "gamma": 8.701182848213683
+    },
+    {
+      "C": 80.8270592336527,
+      "kernel": "sigmoid",
+      "probability": true,
+      "class_weight": "balanced",
+      "gamma": 6.310323701413275
+    },
+    {
+      "C": 0.3902278216441436,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.3486244822760283,
+      "kernel": "poly",
+      "probability": true,
+      "class_weight": "balanced",
+      "gamma": 0.00010161598270536036,
+      "degree": 5
+    },
+    {
+      "C": 0.23010732157405997,
+      "kernel": "rbf",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 0.36956950447404646
+    },
+    {
+      "C": 0.6477002216516408,
+      "kernel": "rbf",
+      "probability": true,
+      "class_weight": "balanced",
+      "gamma": 7.788735927692334
+    },
+    {
+      "C": 28.56866498669269,
+      "kernel": "sigmoid",
+      "probability": true,
+      "class_weight": "balanced",
+      "gamma": 0.0001969429286312249
+    },
+    {
+      "C": 0.7266963348040707,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 0.7480684461513663,
+      "kernel": "rbf",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 9.305363955369613
+    },
+    {
+      "C": 0.1809000108450737,
+      "kernel": "rbf",
+      "probability": true,
+      "class_weight": null,
+      "gamma": 0.24761153342398717
+    },
+    {
+      "C": 0.0044444877030423635,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": null
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.6521739130434783,
+      "pr_auc": 0.9597748552355498,
+      "accuracy": 0.76,
+      "precision": 0.9473684210526315,
+      "recall": 0.782608695652174,
+      "f1": 0.8571428571428571
+    },
+    {
+      "auc": 0.3695652173913043,
+      "pr_auc": 0.9264277536629424,
+      "accuracy": 0.36,
+      "precision": 0.8181818181818182,
+      "recall": 0.391304347826087,
+      "f1": 0.5294117647058824
+    },
+    {
+      "auc": 0.43478260869565216,
+      "pr_auc": 0.8941167210991549,
+      "accuracy": 0.92,
+      "precision": 0.92,
+      "recall": 1.0,
+      "f1": 0.9583333333333334
+    },
+    {
+      "auc": 0.0,
+      "pr_auc": 0.8793061661846302,
+      "accuracy": 0.7083333333333334,
+      "precision": 0.9444444444444444,
+      "recall": 0.7391304347826086,
+      "f1": 0.8292682926829268
+    },
+    {
+      "auc": 0.782608695652174,
+      "pr_auc": 0.9900774556256597,
+      "accuracy": 0.625,
+      "precision": 1.0,
+      "recall": 0.6086956521739131,
+      "f1": 0.7567567567567568
+    },
+    {
+      "auc": 0.6086956521739131,
+      "pr_auc": 0.9596376329910745,
+      "accuracy": 0.52,
+      "precision": 0.9230769230769231,
+      "recall": 0.5217391304347826,
+      "f1": 0.6666666666666666
+    },
+    {
+      "auc": 0.43478260869565216,
+      "pr_auc": 0.8939591911684679,
+      "accuracy": 0.76,
+      "precision": 0.9047619047619048,
+      "recall": 0.8260869565217391,
+      "f1": 0.8636363636363636
+    },
+    {
+      "auc": 0.5978260869565217,
+      "pr_auc": 0.9493681009571731,
+      "accuracy": 0.92,
+      "precision": 0.92,
+      "recall": 1.0,
+      "f1": 0.9583333333333334
+    },
+    {
+      "auc": 0.13043478260869565,
+      "pr_auc": 0.9264076154599925,
+      "accuracy": 0.9583333333333334,
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1": 0.9787234042553191
+    },
+    {
+      "auc": 0.7826086956521738,
+      "pr_auc": 0.9818840579710143,
+      "accuracy": 0.9583333333333334,
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1": 0.9787234042553191
+    },
+    {
+      "auc": 0.9347826086956521,
+      "pr_auc": 0.9943217620438792,
+      "accuracy": 0.84,
+      "precision": 1.0,
+      "recall": 0.8260869565217391,
+      "f1": 0.9047619047619048
+    },
+    {
+      "auc": 0.5652173913043479,
+      "pr_auc": 0.9334366009672388,
+      "accuracy": 0.84,
+      "precision": 0.9523809523809523,
+      "recall": 0.8695652173913043,
+      "f1": 0.9090909090909091
+    },
+    {
+      "auc": 0.4565217391304348,
+      "pr_auc": 0.9049469917692423,
+      "accuracy": 0.92,
+      "precision": 0.92,
+      "recall": 1.0,
+      "f1": 0.9583333333333334
+    },
+    {
+      "auc": 0.21739130434782608,
+      "pr_auc": 0.9423496444454997,
+      "accuracy": 0.9583333333333334,
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1": 0.9787234042553191
+    },
+    {
+      "auc": 1.0,
+      "pr_auc": 1.0,
+      "accuracy": 0.8333333333333334,
+      "precision": 1.0,
+      "recall": 0.8260869565217391,
+      "f1": 0.9047619047619048
+    }
+  ],
+  "n_samples": 123,
+  "prevalence": 93.5
+}

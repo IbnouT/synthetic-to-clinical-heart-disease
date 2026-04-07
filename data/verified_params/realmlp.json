@@ -1,0 +1,21 @@
+{
+  "model": "realmlp",
+  "feature_set": "raw+stats",
+  "params": {
+    "n_epochs": 100,
+    "batch_size": 128,
+    "lr": 0.04,
+    "p_drop": 0.073,
+    "hidden_sizes": "rectangular",
+    "hidden_width": 384,
+    "n_ens": 2,
+    "use_early_stopping": true,
+    "early_stopping_additive_patience": 20,
+    "early_stopping_multiplicative_patience": 1,
+    "device": "cpu",
+    "random_state": 42,
+    "verbosity": 0
+  },
+  "cv_auc": 0.955672,
+  "source": "kaggle-s6e2 realmlp_lean_f3_s42 (adapted from competition tuned params, corrected pytabkit API)"
+}

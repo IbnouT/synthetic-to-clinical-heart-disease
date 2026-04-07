@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_cb_baseline",
+    "ensemble_type": "single",
+    "auc": 0.877128,
+    "pr_auc": 0.8613,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_best",
+    "ensemble_type": "single",
+    "auc": 0.885726,
+    "pr_auc": 0.8794,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_norf",
+    "ensemble_type": "single",
+    "auc": 0.887436,
+    "pr_auc": 0.8742,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_cb_shrink_001",
+    "ensemble_type": "single",
+    "auc": 0.883839,
+    "pr_auc": 0.872,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_lr_onehot",
+    "ensemble_type": "single",
+    "auc": 0.792595,
+    "pr_auc": 0.7593,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_te_cb_a10",
+    "ensemble_type": "single",
+    "auc": 0.881536,
+    "pr_auc": 0.8535,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "single_top_pipe_f10",
+    "ensemble_type": "single",
+    "auc": 0.891055,
+    "pr_auc": 0.8812,
+    "n_models": 1
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.895881,
+    "pr_auc": 0.8865,
+    "n_models": 7
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "hillclimb_blend",
+    "ensemble_type": "hillclimb",
+    "auc": 0.899193,
+    "pr_auc": 0.8893,
+    "n_models": 7
+  },
+  {
+    "dataset": "cleveland",
+    "experiment": "competition_replica",
+    "method": "pfe_meta_classifier",
+    "ensemble_type": "pfe",
+    "auc": 0.893073,
+    "pr_auc": 0.882,
+    "n_models": 7
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_cb_baseline",
+    "ensemble_type": "single",
+    "auc": 0.881448,
+    "pr_auc": 0.8296,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_best",
+    "ensemble_type": "single",
+    "auc": 0.886316,
+    "pr_auc": 0.8082,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_norf",
+    "ensemble_type": "single",
+    "auc": 0.883455,
+    "pr_auc": 0.8239,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_cb_shrink_001",
+    "ensemble_type": "single",
+    "auc": 0.870584,
+    "pr_auc": 0.7951,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_lr_onehot",
+    "ensemble_type": "single",
+    "auc": 0.849458,
+    "pr_auc": 0.7683,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_te_cb_a10",
+    "ensemble_type": "single",
+    "auc": 0.882,
+    "pr_auc": 0.8262,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "single_top_pipe_f10",
+    "ensemble_type": "single",
+    "auc": 0.879868,
+    "pr_auc": 0.7994,
+    "n_models": 1
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.900818,
+    "pr_auc": 0.8245,
+    "n_models": 7
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "hillclimb_blend",
+    "ensemble_type": "hillclimb",
+    "auc": 0.903879,
+    "pr_auc": 0.836,
+    "n_models": 7
+  },
+  {
+    "dataset": "hungarian",
+    "experiment": "competition_replica",
+    "method": "pfe_meta_classifier",
+    "ensemble_type": "pfe",
+    "auc": 0.897707,
+    "pr_auc": 0.8157,
+    "n_models": 7
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_cb_baseline",
+    "ensemble_type": "single",
+    "auc": 0.75,
+    "pr_auc": 0.9706,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_best",
+    "ensemble_type": "single",
+    "auc": 0.793478,
+    "pr_auc": 0.9767,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_norf",
+    "ensemble_type": "single",
+    "auc": 0.741304,
+    "pr_auc": 0.9663,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_cb_shrink_001",
+    "ensemble_type": "single",
+    "auc": 0.784783,
+    "pr_auc": 0.9628,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_lr_onehot",
+    "ensemble_type": "single",
+    "auc": 0.711957,
+    "pr_auc": 0.9735,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_te_cb_a10",
+    "ensemble_type": "single",
+    "auc": 0.626087,
+    "pr_auc": 0.9517,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "single_top_pipe_f10",
+    "ensemble_type": "single",
+    "auc": 0.803261,
+    "pr_auc": 0.9714,
+    "n_models": 1
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.806522,
+    "pr_auc": 0.9694,
+    "n_models": 7
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "hillclimb_blend",
+    "ensemble_type": "hillclimb",
+    "auc": 0.840217,
+    "pr_auc": 0.9669,
+    "n_models": 7
+  },
+  {
+    "dataset": "switzerland",
+    "experiment": "competition_replica",
+    "method": "pfe_meta_classifier",
+    "ensemble_type": "pfe",
+    "auc": 0.795652,
+    "pr_auc": 0.9632,
+    "n_models": 7
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_cb_baseline",
+    "ensemble_type": "single",
+    "auc": 0.700487,
+    "pr_auc": 0.8595,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_best",
+    "ensemble_type": "single",
+    "auc": 0.724306,
+    "pr_auc": 0.8841,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_cb_origstats_norf",
+    "ensemble_type": "single",
+    "auc": 0.68588,
+    "pr_auc": 0.8511,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_cb_shrink_001",
+    "ensemble_type": "single",
+    "auc": 0.713383,
+    "pr_auc": 0.8727,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_lr_onehot",
+    "ensemble_type": "single",
+    "auc": 0.599289,
+    "pr_auc": 0.7998,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_te_cb_a10",
+    "ensemble_type": "single",
+    "auc": 0.716015,
+    "pr_auc": 0.8438,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "single_top_pipe_f10",
+    "ensemble_type": "single",
+    "auc": 0.684301,
+    "pr_auc": 0.8461,
+    "n_models": 1
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "rank_blend_equal",
+    "ensemble_type": "rank_blend",
+    "auc": 0.732465,
+    "pr_auc": 0.8742,
+    "n_models": 7
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "hillclimb_blend",
+    "ensemble_type": "hillclimb",
+    "auc": 0.739966,
+    "pr_auc": 0.8866,
+    "n_models": 7
+  },
+  {
+    "dataset": "va_longbeach",
+    "experiment": "competition_replica",
+    "method": "pfe_meta_classifier",
+    "ensemble_type": "pfe",
+    "auc": 0.730491,
+    "pr_auc": 0.8639,
+    "n_models": 7
+  }
+]

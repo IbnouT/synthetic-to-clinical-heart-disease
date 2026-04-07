@@ -1,0 +1,15 @@
+{
+  "id": "20_cb_origstats_multiseed_avg",
+  "metrics": {
+    "auc": 0.955605134285727,
+    "accuracy": 0.8890333333333333,
+    "precision": 0.8829543038553982,
+    "recall": 0.8674899275634262,
+    "f1": 0.8751538053543014,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "20_cb_origstats_multiseed_avg",
+    "source": "competition_oof"
+  }
+}

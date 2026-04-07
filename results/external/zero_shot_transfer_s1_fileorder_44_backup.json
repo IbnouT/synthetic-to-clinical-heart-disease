@@ -1,0 +1,942 @@
+[
+  {
+    "scenario": "zero_shot_raw",
+    "model": "catboost",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.917310054395508,
+      "pr_auc": 0.9114388596394778,
+      "accuracy": 0.8250825082508251,
+      "precision": 0.8028169014084507,
+      "recall": 0.8201438848920863,
+      "f1": 0.8113879003558719,
+      "threshold": 0.7194963451003639
+    },
+    "auc_ci_lower": 0.8843033509700176,
+    "auc_ci_upper": 0.9456853677689556,
+    "train_time_s": 125.95
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "catboost",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.868827780008029,
+      "pr_auc": 0.8199796900588688,
+      "accuracy": 0.7040816326530612,
+      "precision": 0.5549132947976878,
+      "recall": 0.9056603773584906,
+      "f1": 0.6881720430107527,
+      "threshold": 0.8701522377042262
+    },
+    "auc_ci_lower": 0.8236590038314175,
+    "auc_ci_upper": 0.9110495390053981,
+    "train_time_s": 126.2
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "catboost",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.733695652173913,
+      "pr_auc": 0.9750078020713253,
+      "accuracy": 0.9186991869918699,
+      "precision": 0.9411764705882353,
+      "recall": 0.9739130434782609,
+      "f1": 0.9572649572649573,
+      "threshold": 0.9812333412532065
+    },
+    "auc_ci_lower": 0.5430194805194806,
+    "auc_ci_upper": 0.9005847953216375,
+    "train_time_s": 126.29
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "catboost",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7143045137518095,
+      "pr_auc": 0.8764586126234474,
+      "accuracy": 0.765,
+      "precision": 0.765625,
+      "recall": 0.9865771812080537,
+      "f1": 0.8621700879765396,
+      "threshold": 0.9690120148266086
+    },
+    "auc_ci_lower": 0.6377380952380951,
+    "auc_ci_upper": 0.78671875,
+    "train_time_s": 126.15
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "xgboost",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9180996666081769,
+      "pr_auc": 0.9141501128682361,
+      "accuracy": 0.8250825082508251,
+      "precision": 0.8071428571428572,
+      "recall": 0.8129496402877698,
+      "f1": 0.8100358422939068,
+      "threshold": 0.7346754670143127
+    },
+    "auc_ci_lower": 0.8856831078131819,
+    "auc_ci_upper": 0.9461015175300889,
+    "train_time_s": 19.05
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "xgboost",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8639100762745885,
+      "pr_auc": 0.8196702218936097,
+      "accuracy": 0.7244897959183674,
+      "precision": 0.5757575757575758,
+      "recall": 0.8962264150943396,
+      "f1": 0.7011070110701108,
+      "threshold": 0.8628748655319214
+    },
+    "auc_ci_lower": 0.8177083333333335,
+    "auc_ci_upper": 0.9067775258251449,
+    "train_time_s": 19.62
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "xgboost",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.7489130434782609,
+      "pr_auc": 0.9769897350366412,
+      "accuracy": 0.9186991869918699,
+      "precision": 0.9411764705882353,
+      "recall": 0.9739130434782609,
+      "f1": 0.9572649572649573,
+      "threshold": 0.9793714284896851
+    },
+    "auc_ci_lower": 0.5652709359605912,
+    "auc_ci_upper": 0.9130434782608696,
+    "train_time_s": 19.72
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "xgboost",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7137123305698118,
+      "pr_auc": 0.8724315119261707,
+      "accuracy": 0.755,
+      "precision": 0.7631578947368421,
+      "recall": 0.9731543624161074,
+      "f1": 0.855457227138643,
+      "threshold": 0.985334038734436
+    },
+    "auc_ci_lower": 0.6353821616979513,
+    "auc_ci_upper": 0.7883385579937304,
+    "train_time_s": 19.21
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lightgbm",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.911344095455343,
+      "pr_auc": 0.9103557709100278,
+      "accuracy": 0.8217821782178217,
+      "precision": 0.7972027972027972,
+      "recall": 0.8201438848920863,
+      "f1": 0.8085106382978723,
+      "threshold": 0.7691771560253209
+    },
+    "auc_ci_lower": 0.8766432953549518,
+    "auc_ci_upper": 0.941712204007286,
+    "train_time_s": 46.95
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lightgbm",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8582396627860297,
+      "pr_auc": 0.8214121790514843,
+      "accuracy": 0.6972789115646258,
+      "precision": 0.5508982035928144,
+      "recall": 0.8679245283018868,
+      "f1": 0.673992673992674,
+      "threshold": 0.7297072019343981
+    },
+    "auc_ci_lower": 0.8093834188989986,
+    "auc_ci_upper": 0.9024291497975709,
+    "train_time_s": 46.96
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lightgbm",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.7336956521739131,
+      "pr_auc": 0.9755177732974594,
+      "accuracy": 0.9186991869918699,
+      "precision": 0.9487179487179487,
+      "recall": 0.9652173913043478,
+      "f1": 0.9568965517241379,
+      "threshold": 0.958330402332177
+    },
+    "auc_ci_lower": 0.5474576271186441,
+    "auc_ci_upper": 0.9083333333333333,
+    "train_time_s": 46.93
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lightgbm",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.6995657323332017,
+      "pr_auc": 0.858106116153987,
+      "accuracy": 0.765,
+      "precision": 0.7684210526315789,
+      "recall": 0.9798657718120806,
+      "f1": 0.8613569321533924,
+      "threshold": 0.9545257623595232
+    },
+    "auc_ci_lower": 0.616248097412481,
+    "auc_ci_upper": 0.7746117314850469,
+    "train_time_s": 46.9
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "random_forest",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9185383400596595,
+      "pr_auc": 0.9139837166286594,
+      "accuracy": 0.8250825082508251,
+      "precision": 0.7905405405405406,
+      "recall": 0.841726618705036,
+      "f1": 0.8153310104529616,
+      "threshold": 0.6773188679600786
+    },
+    "auc_ci_lower": 0.8850523699627195,
+    "auc_ci_upper": 0.9473859399964496,
+    "train_time_s": 48.69
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "random_forest",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8863408269771176,
+      "pr_auc": 0.8288682159919333,
+      "accuracy": 0.6428571428571429,
+      "precision": 0.5024875621890548,
+      "recall": 0.9528301886792453,
+      "f1": 0.6579804560260586,
+      "threshold": 0.9088930100341102
+    },
+    "auc_ci_lower": 0.8444192491811539,
+    "auc_ci_upper": 0.9270211071286341,
+    "train_time_s": 48.66
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "random_forest",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.7369565217391304,
+      "pr_auc": 0.9719505636341106,
+      "accuracy": 0.926829268292683,
+      "precision": 0.9416666666666667,
+      "recall": 0.9826086956521739,
+      "f1": 0.9617021276595744,
+      "threshold": 0.9534835178603097
+    },
+    "auc_ci_lower": 0.520935960591133,
+    "auc_ci_upper": 0.8983050847457628,
+    "train_time_s": 48.64
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "random_forest",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.702724042637189,
+      "pr_auc": 0.8791935286792236,
+      "accuracy": 0.745,
+      "precision": 0.7525773195876289,
+      "recall": 0.9798657718120806,
+      "f1": 0.8513119533527697,
+      "threshold": 0.9391777616362688
+    },
+    "auc_ci_lower": 0.6287333333333333,
+    "auc_ci_upper": 0.7772869022869023,
+    "train_time_s": 48.88
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "extra_trees",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9115414985085102,
+      "pr_auc": 0.9026753023668054,
+      "accuracy": 0.8283828382838284,
+      "precision": 0.8,
+      "recall": 0.8345323741007195,
+      "f1": 0.8169014084507042,
+      "threshold": 0.74
+    },
+    "auc_ci_lower": 0.8758741258741259,
+    "auc_ci_upper": 0.9413968547641074,
+    "train_time_s": 32.9
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "extra_trees",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8699819349658772,
+      "pr_auc": 0.8094349131439165,
+      "accuracy": 0.7040816326530612,
+      "precision": 0.5562130177514792,
+      "recall": 0.8867924528301887,
+      "f1": 0.6836363636363636,
+      "threshold": 0.85875
+    },
+    "auc_ci_lower": 0.8254035683942227,
+    "auc_ci_upper": 0.9118576876756322,
+    "train_time_s": 30.35
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "extra_trees",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.721195652173913,
+      "pr_auc": 0.972224392163356,
+      "accuracy": 0.926829268292683,
+      "precision": 0.9491525423728814,
+      "recall": 0.9739130434782609,
+      "f1": 0.9613733905579399,
+      "threshold": 0.92875
+    },
+    "auc_ci_lower": 0.5123152709359606,
+    "auc_ci_upper": 0.8991596638655461,
+    "train_time_s": 30.26
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "extra_trees",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.6211343597841822,
+      "pr_auc": 0.7998715094865024,
+      "accuracy": 0.76,
+      "precision": 0.7643979057591623,
+      "recall": 0.9798657718120806,
+      "f1": 0.8588235294117647,
+      "threshold": 0.92375
+    },
+    "auc_ci_lower": 0.5342613866738748,
+    "auc_ci_upper": 0.7090696465696466,
+    "train_time_s": 29.82
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "logistic_regression",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9067818915599228,
+      "pr_auc": 0.905208703218295,
+      "accuracy": 0.8184818481848185,
+      "precision": 0.795774647887324,
+      "recall": 0.8129496402877698,
+      "f1": 0.8042704626334519,
+      "threshold": 0.7226715020093445
+    },
+    "auc_ci_lower": 0.8713749126484975,
+    "auc_ci_upper": 0.9379213729095526,
+    "train_time_s": 0.11
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "logistic_regression",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8740465676435165,
+      "pr_auc": 0.8249849157619906,
+      "accuracy": 0.7448979591836735,
+      "precision": 0.6013071895424836,
+      "recall": 0.8679245283018868,
+      "f1": 0.7104247104247104,
+      "threshold": 0.8071943797599237
+    },
+    "auc_ci_lower": 0.8280321399705226,
+    "auc_ci_upper": 0.9173715347381803,
+    "train_time_s": 0.08
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "logistic_regression",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.6652173913043478,
+      "pr_auc": 0.9648731616974171,
+      "accuracy": 0.9024390243902439,
+      "precision": 0.9478260869565217,
+      "recall": 0.9478260869565217,
+      "f1": 0.9478260869565217,
+      "threshold": 0.9740619281913854
+    },
+    "auc_ci_lower": 0.435960591133005,
+    "auc_ci_upper": 0.8694444444444445,
+    "train_time_s": 0.08
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "logistic_regression",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7075273062245032,
+      "pr_auc": 0.854460785792265,
+      "accuracy": 0.755,
+      "precision": 0.7659574468085106,
+      "recall": 0.9664429530201343,
+      "f1": 0.8545994065281899,
+      "threshold": 0.9784926143323395
+    },
+    "auc_ci_lower": 0.6217790570175438,
+    "auc_ci_upper": 0.7830621610346267,
+    "train_time_s": 0.08
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ridge",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.907308299701702,
+      "pr_auc": 0.9047573198197635,
+      "accuracy": 0.8085808580858086,
+      "precision": 0.9175257731958762,
+      "recall": 0.6402877697841727,
+      "f1": 0.7542372881355932,
+      "threshold": 0.10765131218807476
+    },
+    "auc_ci_lower": 0.8712789175032737,
+    "auc_ci_upper": 0.9383298392732355,
+    "train_time_s": 0.05
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ridge",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8752007226013647,
+      "pr_auc": 0.8262052727809727,
+      "accuracy": 0.8401360544217688,
+      "precision": 0.8241758241758241,
+      "recall": 0.7075471698113207,
+      "f1": 0.7614213197969543,
+      "threshold": 0.39548592668111465
+    },
+    "auc_ci_lower": 0.8294329896907215,
+    "auc_ci_upper": 0.9183094384707289,
+    "train_time_s": 0.04
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ridge",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.6543478260869565,
+      "pr_auc": 0.9631244797172993,
+      "accuracy": 0.7235772357723578,
+      "precision": 0.9550561797752809,
+      "recall": 0.7391304347826086,
+      "f1": 0.8333333333333334,
+      "threshold": 0.12733334060477564
+    },
+    "auc_ci_lower": 0.4277777777777778,
+    "auc_ci_upper": 0.8694444444444445,
+    "train_time_s": 0.04
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ridge",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7070009211738387,
+      "pr_auc": 0.8558476605802525,
+      "accuracy": 0.735,
+      "precision": 0.7857142857142857,
+      "recall": 0.8859060402684564,
+      "f1": 0.832807570977918,
+      "threshold": 0.8442338418208365
+    },
+    "auc_ci_lower": 0.6220192795535261,
+    "auc_ci_upper": 0.7822901735945215,
+    "train_time_s": 0.04
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lasso",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9067818915599227,
+      "pr_auc": 0.9050140284741728,
+      "accuracy": 0.8184818481848185,
+      "precision": 0.795774647887324,
+      "recall": 0.8129496402877698,
+      "f1": 0.8042704626334519,
+      "threshold": 0.7232233437661622
+    },
+    "auc_ci_lower": 0.8714535137494545,
+    "auc_ci_upper": 0.937903366474795,
+    "train_time_s": 2.1
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lasso",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8739963869931755,
+      "pr_auc": 0.8249628084376988,
+      "accuracy": 0.7448979591836735,
+      "precision": 0.6013071895424836,
+      "recall": 0.8679245283018868,
+      "f1": 0.7104247104247104,
+      "threshold": 0.8072660542542375
+    },
+    "auc_ci_lower": 0.8277468739599677,
+    "auc_ci_upper": 0.917257085020243,
+    "train_time_s": 2.11
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lasso",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.6652173913043478,
+      "pr_auc": 0.9648731616974171,
+      "accuracy": 0.9024390243902439,
+      "precision": 0.9478260869565217,
+      "recall": 0.9478260869565217,
+      "f1": 0.9478260869565217,
+      "threshold": 0.974084950497956
+    },
+    "auc_ci_lower": 0.435960591133005,
+    "auc_ci_upper": 0.8694444444444445,
+    "train_time_s": 2.11
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "lasso",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7076589024871693,
+      "pr_auc": 0.8545494702301487,
+      "accuracy": 0.755,
+      "precision": 0.7659574468085106,
+      "recall": 0.9664429530201343,
+      "f1": 0.8545994065281899,
+      "threshold": 0.978495795911746
+    },
+    "auc_ci_lower": 0.6224447225698789,
+    "auc_ci_upper": 0.7831340956340956,
+    "train_time_s": 2.1
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "elastic_net",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9067818915599227,
+      "pr_auc": 0.9050140284741728,
+      "accuracy": 0.8184818481848185,
+      "precision": 0.795774647887324,
+      "recall": 0.8129496402877698,
+      "f1": 0.8042704626334519,
+      "threshold": 0.7232234528280035
+    },
+    "auc_ci_lower": 0.8714535137494545,
+    "auc_ci_upper": 0.937903366474795,
+    "train_time_s": 2.1
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "elastic_net",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8739963869931755,
+      "pr_auc": 0.8249628084376988,
+      "accuracy": 0.7448979591836735,
+      "precision": 0.6013071895424836,
+      "recall": 0.8679245283018868,
+      "f1": 0.7104247104247104,
+      "threshold": 0.8072705676122555
+    },
+    "auc_ci_lower": 0.8277468739599677,
+    "auc_ci_upper": 0.917257085020243,
+    "train_time_s": 2.13
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "elastic_net",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.6652173913043478,
+      "pr_auc": 0.9648731616974171,
+      "accuracy": 0.9024390243902439,
+      "precision": 0.9478260869565217,
+      "recall": 0.9478260869565217,
+      "f1": 0.9478260869565217,
+      "threshold": 0.974083688296611
+    },
+    "auc_ci_lower": 0.435960591133005,
+    "auc_ci_upper": 0.8694444444444445,
+    "train_time_s": 2.13
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "elastic_net",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7075273062245032,
+      "pr_auc": 0.854460785792265,
+      "accuracy": 0.755,
+      "precision": 0.7659574468085106,
+      "recall": 0.9664429530201343,
+      "f1": 0.8545994065281899,
+      "threshold": 0.9784964908818043
+    },
+    "auc_ci_lower": 0.6217790570175438,
+    "auc_ci_upper": 0.7830621610346267,
+    "train_time_s": 2.12
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "knn",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9106422179329707,
+      "pr_auc": 0.9031481978243593,
+      "accuracy": 0.8250825082508251,
+      "precision": 0.8028169014084507,
+      "recall": 0.8201438848920863,
+      "f1": 0.8113879003558719,
+      "threshold": 0.7728296175217708
+    },
+    "auc_ci_lower": 0.875130821559393,
+    "auc_ci_upper": 0.941348334205477,
+    "train_time_s": 0.39
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "knn",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8889251304696908,
+      "pr_auc": 0.7892958387130645,
+      "accuracy": 0.7482993197278912,
+      "precision": 0.5975609756097561,
+      "recall": 0.9245283018867925,
+      "f1": 0.725925925925926,
+      "threshold": 0.7512553308238715
+    },
+    "auc_ci_lower": 0.8496948653198653,
+    "auc_ci_upper": 0.9261340826977118,
+    "train_time_s": 0.47
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "knn",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.6782608695652175,
+      "pr_auc": 0.9607859555103522,
+      "accuracy": 0.9186991869918699,
+      "precision": 0.9487179487179487,
+      "recall": 0.9652173913043478,
+      "f1": 0.9568965517241379,
+      "threshold": 0.5288085035683922
+    },
+    "auc_ci_lower": 0.4491525423728814,
+    "auc_ci_upper": 0.8945652173913043,
+    "train_time_s": 0.34
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "knn",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.6367943150414529,
+      "pr_auc": 0.8144128202050671,
+      "accuracy": 0.755,
+      "precision": 0.7604166666666666,
+      "recall": 0.9798657718120806,
+      "f1": 0.8563049853372434,
+      "threshold": 0.9521115768862447
+    },
+    "auc_ci_lower": 0.5500625782227785,
+    "auc_ci_upper": 0.72166968053044,
+    "train_time_s": 0.37
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ensemble_rank_blend_raw",
+    "dataset": "cleveland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 303,
+    "prevalence": 45.9,
+    "metrics": {
+      "auc": 0.9160817687313564,
+      "pr_auc": 0.9119832862873454,
+      "accuracy": 0.8250825082508251,
+      "precision": 0.7866666666666666,
+      "recall": 0.8489208633093526,
+      "f1": 0.8166089965397924,
+      "threshold": 0.6050605060506051
+    },
+    "auc_ci_lower": 0.8828159352739424,
+    "auc_ci_upper": 0.9447938504542278,
+    "components": [
+      "catboost",
+      "xgboost",
+      "lightgbm"
+    ]
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ensemble_rank_blend_raw",
+    "dataset": "hungarian",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 294,
+    "prevalence": 36.1,
+    "metrics": {
+      "auc": 0.8661682055399439,
+      "pr_auc": 0.8246489322319385,
+      "accuracy": 0.7448979591836735,
+      "precision": 0.6054421768707483,
+      "recall": 0.839622641509434,
+      "f1": 0.7035573122529645,
+      "threshold": 0.6507936507936508
+    },
+    "auc_ci_lower": 0.8194812334449497,
+    "auc_ci_upper": 0.9088060088060088,
+    "components": [
+      "catboost",
+      "xgboost",
+      "lightgbm"
+    ]
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ensemble_rank_blend_raw",
+    "dataset": "switzerland",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 123,
+    "prevalence": 93.5,
+    "metrics": {
+      "auc": 0.7396739130434782,
+      "pr_auc": 0.9759578336267261,
+      "accuracy": 0.5528455284552846,
+      "precision": 0.9838709677419355,
+      "recall": 0.5304347826086957,
+      "f1": 0.6892655367231638,
+      "threshold": 0.47696476964769646
+    },
+    "auc_ci_lower": 0.5517241379310345,
+    "auc_ci_upper": 0.9097222222222221,
+    "components": [
+      "catboost",
+      "xgboost",
+      "lightgbm"
+    ]
+  },
+  {
+    "scenario": "zero_shot_raw",
+    "model": "ensemble_rank_blend_raw",
+    "dataset": "va_longbeach",
+    "feature_set": "raw",
+    "n_features": 13,
+    "n_samples": 200,
+    "prevalence": 74.5,
+    "metrics": {
+      "auc": 0.7124621660744834,
+      "pr_auc": 0.8690389130684523,
+      "accuracy": 0.62,
+      "precision": 0.8476190476190476,
+      "recall": 0.5973154362416108,
+      "f1": 0.7007874015748031,
+      "threshold": 0.6016666666666667
+    },
+    "auc_ci_lower": 0.6344500064176615,
+    "auc_ci_upper": 0.7861904761904761,
+    "components": [
+      "catboost",
+      "xgboost",
+      "lightgbm"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "model": "catboost",
+  "feature_set": "origstats_full",
+  "params": {
+    "iterations": 10000,
+    "learning_rate": 0.01,
+    "depth": 2,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "auto_class_weights": "Balanced",
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.9,
+    "l2_leaf_reg": 12,
+    "random_strength": 1.2,
+    "task_type": "CPU",
+    "verbose": false,
+    "random_seed": 42
+  },
+  "cv_auc": 0.955579,
+  "source": "kaggle-s6e2/src/done/run_cb_origstats.py"
+}

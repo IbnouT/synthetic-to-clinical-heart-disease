@@ -1,0 +1,15 @@
+{
+  "id": "18_cb_freq_multiseed_s2024",
+  "metrics": {
+    "auc": 0.9556093632654543,
+    "accuracy": 0.8889047619047619,
+    "precision": 0.8828042232712334,
+    "recall": 0.8673518519829777,
+    "f1": 0.8750098220599896,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "18_cb_freq_multiseed_s2024",
+    "source": "competition_oof"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "model": "svm",
+  "dataset": "cleveland",
+  "tuning": "competition",
+  "imbalance": "native",
+  "n_folds": 10,
+  "oof_auc": 0.8971530092998772,
+  "oof_pr_auc": 0.8909057691043121,
+  "mean_fold_auc": 0.9009312378797674,
+  "std_fold_auc": 0.055395748705309375,
+  "metrics": {
+    "auc": 0.8971530092998772,
+    "pr_auc": 0.8909057691043121,
+    "accuracy": 0.8151815181518152,
+    "precision": 0.8217054263565892,
+    "recall": 0.762589928057554,
+    "f1": 0.7910447761194029,
+    "threshold": 0.6220669348719821
+  },
+  "runtime_s": 0.82,
+  "best_params": {
+    "C": 1.0,
+    "kernel": "linear",
+    "probability": true,
+    "class_weight": "balanced"
+  },
+  "per_fold_params": [
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "probability": true,
+      "class_weight": "balanced"
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.8907563025210083,
+      "pr_auc": 0.9044957699305523,
+      "accuracy": 0.9032258064516129,
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.8888888888888888
+    },
+    {
+      "auc": 0.9915966386554622,
+      "pr_auc": 0.9901360544217686,
+      "accuracy": 0.9354838709677419,
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1": 0.9285714285714286
+    },
+    {
+      "auc": 0.8739495798319328,
+      "pr_auc": 0.8139698466585858,
+      "accuracy": 0.8387096774193549,
+      "precision": 0.8461538461538461,
+      "recall": 0.7857142857142857,
+      "f1": 0.8148148148148148
+    },
+    {
+      "auc": 0.8914027149321266,
+      "pr_auc": 0.8486302159379082,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8333333333333334,
+      "recall": 0.7692307692307693,
+      "f1": 0.8
+    },
+    {
+      "auc": 0.9642857142857143,
+      "pr_auc": 0.9673202614379084,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517
+    },
+    {
+      "auc": 0.8125,
+      "pr_auc": 0.8363622732043783,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 0.5714285714285714,
+      "f1": 0.6153846153846154
+    },
+    {
+      "auc": 0.9464285714285714,
+      "pr_auc": 0.9501105705440069,
+      "accuracy": 0.8,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857
+    },
+    {
+      "auc": 0.875,
+      "pr_auc": 0.8818944606828236,
+      "accuracy": 0.7,
+      "precision": 0.6666666666666666,
+      "recall": 0.7142857142857143,
+      "f1": 0.6896551724137931
+    },
+    {
+      "auc": 0.9375,
+      "pr_auc": 0.9401476499690784,
+      "accuracy": 0.8333333333333334,
+      "precision": 1.0,
+      "recall": 0.6428571428571429,
+      "f1": 0.782608695652174
+    },
+    {
+      "auc": 0.8258928571428571,
+      "pr_auc": 0.8583682587254013,
+      "accuracy": 0.8,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693
+    }
+  ],
+  "n_samples": 303,
+  "prevalence": 45.9
+}

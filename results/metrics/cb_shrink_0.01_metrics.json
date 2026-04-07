@@ -1,0 +1,15 @@
+{
+  "id": "cb_shrink_0.01",
+  "metrics": {
+    "auc": 0.9556267823740812,
+    "accuracy": 0.8891936507936508,
+    "precision": 0.8818305225960296,
+    "recall": 0.8693486373002329,
+    "f1": 0.8755450963612701,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "cb_shrink_0.01",
+    "source": "competition_oof"
+  }
+}

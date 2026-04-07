@@ -1,0 +1,184 @@
+{
+  "method": "expansion_weighted_attention",
+  "description": "ViT attention mapped to clinical features via the expansion layer's weight matrix. Each pixel's attention is attributed back to the 13 clinical features proportionally to the absolute expansion weights.",
+  "n_samples": 5000,
+  "n_disease": 2244,
+  "n_healthy": 2756,
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "feature_labels": [
+    "Age",
+    "Sex",
+    "Chest Pain",
+    "Rest BP",
+    "Cholesterol",
+    "Fasting BS",
+    "Rest ECG",
+    "Max HR",
+    "Exercise Angina",
+    "ST Depression",
+    "Slope",
+    "Num Vessels",
+    "Thal"
+  ],
+  "feature_importance_ranking": [
+    {
+      "rank": 1,
+      "feature": "Thal",
+      "attention": 0.10564138565063476
+    },
+    {
+      "rank": 2,
+      "feature": "Chest Pain",
+      "attention": 0.10375155944824219
+    },
+    {
+      "rank": 3,
+      "feature": "Max HR",
+      "attention": 0.09241457214355468
+    },
+    {
+      "rank": 4,
+      "feature": "Exercise Angina",
+      "attention": 0.08062951126098633
+    },
+    {
+      "rank": 5,
+      "feature": "Num Vessels",
+      "attention": 0.08018724288940429
+    },
+    {
+      "rank": 6,
+      "feature": "Sex",
+      "attention": 0.07672143173217773
+    },
+    {
+      "rank": 7,
+      "feature": "Slope",
+      "attention": 0.07586004524230958
+    },
+    {
+      "rank": 8,
+      "feature": "Age",
+      "attention": 0.07260366592407226
+    },
+    {
+      "rank": 9,
+      "feature": "Rest ECG",
+      "attention": 0.07072754669189453
+    },
+    {
+      "rank": 10,
+      "feature": "ST Depression",
+      "attention": 0.06651226119995117
+    },
+    {
+      "rank": 11,
+      "feature": "Fasting BS",
+      "attention": 0.06286056518554688
+    },
+    {
+      "rank": 12,
+      "feature": "Cholesterol",
+      "attention": 0.05122796173095703
+    },
+    {
+      "rank": 13,
+      "feature": "Rest BP",
+      "attention": 0.051133626556396486
+    }
+  ],
+  "class_conditional_difference": [
+    {
+      "feature": "Age",
+      "disease_attention": 0.07150335609912872,
+      "healthy_attention": 0.07349950075149536,
+      "difference": -0.001996144652366638
+    },
+    {
+      "feature": "Sex",
+      "disease_attention": 0.07432381063699722,
+      "healthy_attention": 0.07867363840341568,
+      "difference": -0.004349827766418457
+    },
+    {
+      "feature": "Chest Pain",
+      "disease_attention": 0.10415107011795044,
+      "healthy_attention": 0.10342632979154587,
+      "difference": 0.0007247403264045715
+    },
+    {
+      "feature": "Rest BP",
+      "disease_attention": 0.05219028517603874,
+      "healthy_attention": 0.05027325451374054,
+      "difference": 0.0019170306622982025
+    },
+    {
+      "feature": "Cholesterol",
+      "disease_attention": 0.05073665454983711,
+      "healthy_attention": 0.05162806808948517,
+      "difference": -0.000891413539648056
+    },
+    {
+      "feature": "Fasting BS",
+      "disease_attention": 0.06275620311498642,
+      "healthy_attention": 0.06294551491737366,
+      "difference": -0.00018931180238723755
+    },
+    {
+      "feature": "Rest ECG",
+      "disease_attention": 0.07359059900045395,
+      "healthy_attention": 0.06839645653963089,
+      "difference": 0.005194142460823059
+    },
+    {
+      "feature": "Max HR",
+      "disease_attention": 0.09076672792434692,
+      "healthy_attention": 0.09375613182783127,
+      "difference": -0.0029894039034843445
+    },
+    {
+      "feature": "Exercise Angina",
+      "disease_attention": 0.08142798393964767,
+      "healthy_attention": 0.07997942715883255,
+      "difference": 0.0014485567808151245
+    },
+    {
+      "feature": "ST Depression",
+      "disease_attention": 0.06861355900764465,
+      "healthy_attention": 0.06480138748884201,
+      "difference": 0.003812171518802643
+    },
+    {
+      "feature": "Slope",
+      "disease_attention": 0.07684537768363953,
+      "healthy_attention": 0.07505775988101959,
+      "difference": 0.001787617802619934
+    },
+    {
+      "feature": "Num Vessels",
+      "disease_attention": 0.07938892394304276,
+      "healthy_attention": 0.08083722740411758,
+      "difference": -0.001448303461074829
+    },
+    {
+      "feature": "Thal",
+      "disease_attention": 0.09979267418384552,
+      "healthy_attention": 0.1104033961892128,
+      "difference": -0.010610722005367279
+    }
+  ]
+}

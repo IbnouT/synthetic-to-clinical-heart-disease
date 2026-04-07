@@ -1,0 +1,240 @@
+{
+  "model": "catboost",
+  "dataset": "cleveland",
+  "tuning": "default",
+  "imbalance": "smote",
+  "n_folds": 10,
+  "oof_auc": 0.866445867696087,
+  "oof_pr_auc": 0.8495362324539498,
+  "mean_fold_auc": 0.9290653280542986,
+  "std_fold_auc": 0.03960807613377435,
+  "metrics": {
+    "auc": 0.866445867696087,
+    "pr_auc": 0.8495362324539498,
+    "accuracy": 0.8382838283828383,
+    "precision": 0.8515625,
+    "recall": 0.7841726618705036,
+    "f1": 0.8164794007490637,
+    "threshold": 0.48646156029679233
+  },
+  "runtime_s": 23.32,
+  "best_params": {
+    "iterations": 1500,
+    "learning_rate": 0.03,
+    "depth": 6,
+    "l2_leaf_reg": 3.0,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "verbose": false,
+    "allow_writing_files": false,
+    "thread_count": -1
+  },
+  "per_fold_params": [
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    },
+    {
+      "iterations": 1500,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "verbose": false,
+      "allow_writing_files": false,
+      "thread_count": -1
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.9705882352941175,
+      "pr_auc": 0.9706064612079648,
+      "accuracy": 0.9032258064516129,
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.8888888888888888,
+      "threshold": 0.48856413946782057
+    },
+    {
+      "auc": 1.0,
+      "pr_auc": 1.0,
+      "accuracy": 0.967741935483871,
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1": 0.9655172413793104,
+      "threshold": 0.5031305762760967
+    },
+    {
+      "auc": 0.8991596638655462,
+      "pr_auc": 0.8029329926457257,
+      "accuracy": 0.8387096774193549,
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517,
+      "threshold": 0.514499531924593
+    },
+    {
+      "auc": 0.9276018099547512,
+      "pr_auc": 0.9040026213103134,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.8,
+      "recall": 0.6153846153846154,
+      "f1": 0.6956521739130435,
+      "threshold": 0.45990178350914346
+    },
+    {
+      "auc": 0.9241071428571428,
+      "pr_auc": 0.9333959899749371,
+      "accuracy": 0.8,
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1": 0.8,
+      "threshold": 0.8788616994123896
+    },
+    {
+      "auc": 0.875,
+      "pr_auc": 0.8757173382173382,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.8181818181818182,
+      "recall": 0.6428571428571429,
+      "f1": 0.72,
+      "threshold": 0.4642094652294768
+    },
+    {
+      "auc": 0.9620535714285714,
+      "pr_auc": 0.9566780558377196,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1": 0.8,
+      "threshold": 0.48646156029679233
+    },
+    {
+      "auc": 0.8883928571428571,
+      "pr_auc": 0.8984482650655756,
+      "accuracy": 0.8,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693,
+      "threshold": 0.49731064615967024
+    },
+    {
+      "auc": 0.9553571428571428,
+      "pr_auc": 0.9645021645021643,
+      "accuracy": 0.9,
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.8888888888888888,
+      "threshold": 0.6789792539919115
+    },
+    {
+      "auc": 0.8883928571428571,
+      "pr_auc": 0.8784047510551269,
+      "accuracy": 0.8,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693,
+      "threshold": 0.7279791577205765
+    }
+  ],
+  "scenario": 4,
+  "feature_set": "raw+competition_stats",
+  "n_samples": 303,
+  "prevalence": 45.9
+}

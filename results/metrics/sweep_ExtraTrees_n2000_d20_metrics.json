@@ -1,0 +1,17 @@
+{
+  "id": "sweep_ExtraTrees_n2000_d20",
+  "metrics": {
+    "auc": 0.9514785676627844,
+    "accuracy": 0.8838904761904762,
+    "precision": 0.8772144826716167,
+    "recall": 0.8616270259936131,
+    "f1": 0.8693508891941081,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "Extra Trees (enriched, n=2000, depth=20)",
+    "features": "enriched_tree",
+    "family": "extra_trees",
+    "source": "competition_oof"
+  }
+}

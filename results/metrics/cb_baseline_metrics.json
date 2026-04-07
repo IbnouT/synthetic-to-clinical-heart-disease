@@ -1,0 +1,15 @@
+{
+  "id": "cb_baseline",
+  "metrics": {
+    "auc": 0.9556429340957626,
+    "accuracy": 0.8891174603174603,
+    "precision": 0.882816664025699,
+    "recall": 0.8678829119077797,
+    "f1": 0.8752860942995376,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "cb_baseline",
+    "source": "competition_oof"
+  }
+}

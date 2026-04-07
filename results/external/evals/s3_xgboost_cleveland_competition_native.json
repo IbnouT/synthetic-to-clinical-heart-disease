@@ -1,0 +1,239 @@
+{
+  "model": "xgboost",
+  "dataset": "cleveland",
+  "tuning": "competition",
+  "imbalance": "native",
+  "n_folds": 10,
+  "oof_auc": 0.8621249341989824,
+  "oof_pr_auc": 0.8442742087404276,
+  "mean_fold_auc": 0.8665340174531352,
+  "std_fold_auc": 0.044313124875281704,
+  "metrics": {
+    "auc": 0.8621249341989824,
+    "pr_auc": 0.8442742087404276,
+    "accuracy": 0.7887788778877888,
+    "precision": 0.7819548872180451,
+    "recall": 0.7482014388489209,
+    "f1": 0.7647058823529411,
+    "threshold": 0.32760629057884216
+  },
+  "runtime_s": 58.81,
+  "best_params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "learning_rate": 0.01,
+    "max_depth": 2,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "n_estimators": 10000,
+    "n_jobs": -1,
+    "verbosity": 0,
+    "scale_pos_weight": 1.176
+  },
+  "per_fold_params": [
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.176
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.176
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.176
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.1666666666666667
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.184
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.184
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.184
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.184
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.184
+    },
+    {
+      "objective": "binary:logistic",
+      "eval_metric": "auc",
+      "learning_rate": 0.01,
+      "max_depth": 2,
+      "subsample": 0.9,
+      "colsample_bytree": 0.9,
+      "n_estimators": 10000,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "scale_pos_weight": 1.184
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.8403361344537814,
+      "pr_auc": 0.7644739714067444,
+      "accuracy": 0.7096774193548387,
+      "precision": 0.6923076923076923,
+      "recall": 0.6428571428571429,
+      "f1": 0.6666666666666666
+    },
+    {
+      "auc": 0.9285714285714285,
+      "pr_auc": 0.9421871987661461,
+      "accuracy": 0.8709677419354839,
+      "precision": 0.9166666666666666,
+      "recall": 0.7857142857142857,
+      "f1": 0.8461538461538461
+    },
+    {
+      "auc": 0.8403361344537815,
+      "pr_auc": 0.8117391070647373,
+      "accuracy": 0.7419354838709677,
+      "precision": 0.6666666666666666,
+      "recall": 0.8571428571428571,
+      "f1": 0.75
+    },
+    {
+      "auc": 0.8552036199095022,
+      "pr_auc": 0.8014156505821186,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.7142857142857143,
+      "recall": 0.7692307692307693,
+      "f1": 0.7407407407407407
+    },
+    {
+      "auc": 0.8660714285714286,
+      "pr_auc": 0.8638229043304231,
+      "accuracy": 0.8,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857
+    },
+    {
+      "auc": 0.8392857142857143,
+      "pr_auc": 0.877235244230318,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.8888888888888888,
+      "recall": 0.5714285714285714,
+      "f1": 0.6956521739130435
+    },
+    {
+      "auc": 0.9553571428571429,
+      "pr_auc": 0.9702380952380951,
+      "accuracy": 0.9333333333333333,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
+    },
+    {
+      "auc": 0.8392857142857142,
+      "pr_auc": 0.8592156520727947,
+      "accuracy": 0.7333333333333333,
+      "precision": 0.6875,
+      "recall": 0.7857142857142857,
+      "f1": 0.7333333333333333
+    },
+    {
+      "auc": 0.8973214285714286,
+      "pr_auc": 0.9232513518227803,
+      "accuracy": 0.8,
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693
+    },
+    {
+      "auc": 0.8035714285714286,
+      "pr_auc": 0.8144651975009117,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.7692307692307693,
+      "recall": 0.7142857142857143,
+      "f1": 0.7407407407407407
+    }
+  ],
+  "n_samples": 303,
+  "prevalence": 45.9
+}

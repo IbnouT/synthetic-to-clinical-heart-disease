@@ -1,0 +1,14 @@
+{
+  "model": "tabpfn",
+  "feature_set": "raw",
+  "params": {
+    "n_estimators": 4,
+    "random_state": 42,
+    "ignore_pretraining_limits": true,
+    "device": "mps",
+    "subsample_size": 3000,
+    "n_subsamples": 8
+  },
+  "cv_auc": 0.953087,
+  "source": "kaggle-s6e2/src/done/run_tabpfn_mps.py (subsample ensembling for 630K dataset)"
+}

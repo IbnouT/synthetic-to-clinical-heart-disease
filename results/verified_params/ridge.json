@@ -1,0 +1,14 @@
+{
+    "model": "ridge",
+    "feature_set": "onehot",
+    "params": {
+        "alpha": 1.0,
+        "solver": "auto",
+        "fit_intercept": true,
+        "tol": 1e-4,
+        "class_weight": null,
+        "random_state": 42
+    },
+    "cv_auc": null,
+    "source": "v9 defaults (no competition tuning for base ridge)"
+}

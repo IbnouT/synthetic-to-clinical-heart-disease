@@ -1,0 +1,15 @@
+{
+  "id": "rankgate_narrow_w5",
+  "metrics": {
+    "auc": 0.9558835499939042,
+    "accuracy": 0.8785238095238095,
+    "precision": 0.8268572662108024,
+    "recall": 0.922150155423538,
+    "f1": 0.8719077427777592,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "type": "ensemble",
+    "source": "competition_oof_reconstruction"
+  }
+}

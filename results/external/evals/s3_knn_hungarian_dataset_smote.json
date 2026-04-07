@@ -1,0 +1,178 @@
+{
+  "model": "knn",
+  "dataset": "hungarian",
+  "feature_set": "raw",
+  "tuning": "dataset",
+  "imbalance": "smote",
+  "n_folds": 10,
+  "oof_auc": 0.8801686069851467,
+  "oof_pr_auc": 0.8246331849738813,
+  "mean_fold_auc": 0.8843248272195641,
+  "std_fold_auc": 0.055180721624955166,
+  "metrics": {
+    "auc": 0.8801686069851467,
+    "pr_auc": 0.8246331849738813,
+    "accuracy": 0.8367346938775511,
+    "precision": 0.8020833333333334,
+    "recall": 0.7264150943396226,
+    "f1": 0.7623762376237624,
+    "threshold": 0.4358835817101037
+  },
+  "runtime_s": 618.83,
+  "best_params": {
+    "n_neighbors": 135,
+    "weights": "distance",
+    "metric": "minkowski",
+    "n_jobs": -1,
+    "p": 1
+  },
+  "per_fold_params": [
+    {
+      "n_neighbors": 147,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 12,
+      "weights": "uniform",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 64,
+      "weights": "uniform",
+      "metric": "minkowski",
+      "n_jobs": -1,
+      "p": 1
+    },
+    {
+      "n_neighbors": 59,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 151,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 135,
+      "weights": "distance",
+      "metric": "minkowski",
+      "n_jobs": -1,
+      "p": 1
+    },
+    {
+      "n_neighbors": 12,
+      "weights": "uniform",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 64,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 151,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 56,
+      "weights": "distance",
+      "metric": "euclidean",
+      "n_jobs": -1
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.9138755980861244,
+      "pr_auc": 0.8760396169487079,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8,
+      "recall": 0.7272727272727273,
+      "f1": 0.7619047619047619
+    },
+    {
+      "auc": 0.8038277511961722,
+      "pr_auc": 0.8100550964187327,
+      "accuracy": 0.8666666666666667,
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1": 0.7777777777777778
+    },
+    {
+      "auc": 0.8588516746411483,
+      "pr_auc": 0.840803759520337,
+      "accuracy": 0.8,
+      "precision": 0.7272727272727273,
+      "recall": 0.7272727272727273,
+      "f1": 0.7272727272727273
+    },
+    {
+      "auc": 0.9665071770334928,
+      "pr_auc": 0.9483011937557393,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.875,
+      "recall": 0.6363636363636364,
+      "f1": 0.7368421052631579
+    },
+    {
+      "auc": 0.8052631578947368,
+      "pr_auc": 0.6202292070674423,
+      "accuracy": 0.6551724137931034,
+      "precision": 0.5,
+      "recall": 0.6,
+      "f1": 0.5454545454545454
+    },
+    {
+      "auc": 0.968421052631579,
+      "pr_auc": 0.9451515151515152,
+      "accuracy": 0.8620689655172413,
+      "precision": 0.875,
+      "recall": 0.7,
+      "f1": 0.7777777777777778
+    },
+    {
+      "auc": 0.8710526315789475,
+      "pr_auc": 0.7788009404388715,
+      "accuracy": 0.8620689655172413,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8
+    },
+    {
+      "auc": 0.8473684210526317,
+      "pr_auc": 0.7395255183413078,
+      "accuracy": 0.8275862068965517,
+      "precision": 0.7272727272727273,
+      "recall": 0.8,
+      "f1": 0.7619047619047619
+    },
+    {
+      "auc": 0.8989898989898991,
+      "pr_auc": 0.9160580160580161,
+      "accuracy": 0.896551724137931,
+      "precision": 1.0,
+      "recall": 0.7272727272727273,
+      "f1": 0.8421052631578947
+    },
+    {
+      "auc": 0.9090909090909091,
+      "pr_auc": 0.9287725742271198,
+      "accuracy": 0.9310344827586207,
+      "precision": 0.9090909090909091,
+      "recall": 0.9090909090909091,
+      "f1": 0.9090909090909091
+    }
+  ],
+  "scenario": 3,
+  "n_samples": 294,
+  "minority_pct": 36.05
+}

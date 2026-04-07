@@ -1,0 +1,18 @@
+Model,Feature Set,Public Score,Private Score
+DeeperCNN,Raw-13 (expansion layer),0.95088,0.95259
+ViT,Raw-13 (expansion layer),0.95085,0.95260
+DeeperCNN,117 mega-features,0.95089,0.95226
+ViT,117 mega-features,0.95085,0.95207
+SimCLR,Raw-13 (64d),0.95109,0.95276
+DeeperCNN,Raw-13 (64d),0.95112,0.95276
+VAE,Raw-13 (64d),0.95106,0.95270
+MoCo,Raw-13 (64d),0.95101,0.95267
+ViT,Raw-13 (64d) [unchanged],0.95085,0.95260
+cGAN,Raw-13 (64d),0.95087,0.95253
+Hybrid,Raw-13 (64d),0.95081,0.95250
+GAN-aug,Raw-13 (64d),0.94975,0.95160
+Ensemble Top3 (VAE+DeepCNN+SimCLR),Raw-13 (64d),0.95129,0.95294
+Ensemble SSL (SimCLR+MoCo+VAE),Raw-13 (64d),0.95128,0.95293
+Ensemble Rank Avg (all 8),Raw-13 (64d),0.95123,0.95293
+Ensemble Avg All 8,Raw-13 (64d),0.95123,0.95293
+Ensemble Supervised (DeepCNN+ViT+Hybrid),Raw-13 (64d),0.95118,0.95287

@@ -1,0 +1,17 @@
+{
+  "id": "ridge_onehot",
+  "metrics": {
+    "auc": 0.9540459400891024,
+    "accuracy": 0.8084730158730159,
+    "precision": 0.9696811351866045,
+    "recall": 0.5912962818724465,
+    "f1": 0.7346279882997206,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "Ridge (onehot features)",
+    "features": "onehot",
+    "family": "ridge",
+    "source": "competition_oof"
+  }
+}

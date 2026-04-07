@@ -1,0 +1,15 @@
+{
+  "id": "top_pipe_f10_s42",
+  "metrics": {
+    "auc": 0.9562452826975008,
+    "accuracy": 0.8840936507936508,
+    "precision": 0.8431853859489858,
+    "recall": 0.9108810638192414,
+    "f1": 0.8757269161057549,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "top_pipe_f10_s42",
+    "source": "competition_oof"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mlp_256_128_64_32",
+  "metrics": {
+    "auc": 0.955224190280342,
+    "accuracy": 0.8885380952380952,
+    "precision": 0.8802763652522299,
+    "recall": 0.8696708136546127,
+    "f1": 0.8749414519906323,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "MLP (4 hidden layers, PyTorch)",
+    "features": "onehot_freq_origmean",
+    "family": "pytorch_mlp",
+    "source": "competition_oof"
+  }
+}

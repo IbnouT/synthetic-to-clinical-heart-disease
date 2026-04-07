@@ -1,0 +1,18 @@
+{
+  "model": "xgboost",
+  "feature_set": "origstats_full",
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "learning_rate": 0.01,
+    "max_depth": 2,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "n_estimators": 10000,
+    "n_jobs": -1,
+    "random_state": 42,
+    "verbosity": 0
+  },
+  "cv_auc": 0.955345,
+  "source": "kaggle-s6e2/src/done/run_cb_origstats.py"
+}

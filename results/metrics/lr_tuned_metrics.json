@@ -1,0 +1,17 @@
+{
+  "id": "lr_tuned",
+  "metrics": {
+    "auc": 0.9555281715426804,
+    "accuracy": 0.8892190476190476,
+    "precision": 0.8854471768697619,
+    "recall": 0.8647886027459338,
+    "f1": 0.8749959700385802,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "Logistic Regression (L1, tuned C)",
+    "features": "onehot_scaled",
+    "family": "logistic_regression",
+    "source": "competition_oof"
+  }
+}

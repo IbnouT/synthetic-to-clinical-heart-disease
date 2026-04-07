@@ -1,0 +1,15 @@
+{
+  "id": "cb_pairproto_s42",
+  "metrics": {
+    "auc": 0.955397188659472,
+    "accuracy": 0.8887285714285714,
+    "precision": 0.8824980996948705,
+    "recall": 0.8672916651915002,
+    "f1": 0.8748288071766174,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "cb_pairproto_s42",
+    "source": "competition_oof"
+  }
+}

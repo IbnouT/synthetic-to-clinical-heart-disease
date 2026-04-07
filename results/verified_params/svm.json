@@ -1,0 +1,13 @@
+{
+  "model": "svm",
+  "feature_set": "raw+stats",
+  "params": {
+    "C": 1.0,
+    "kernel": "linear",
+    "probability": true,
+    "class_weight": null,
+    "random_state": 42
+  },
+  "cv_auc": 0.953511,
+  "source": "kaggle-s6e2/src/done/run_svm_diversity.py"
+}

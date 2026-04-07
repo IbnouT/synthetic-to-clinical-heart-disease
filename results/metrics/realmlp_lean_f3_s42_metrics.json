@@ -1,0 +1,20 @@
+{
+  "id": "realmlp_lean_f3_s42",
+  "metrics": {
+    "auc": 0.9556721209126504,
+    "accuracy": 0.8893412698412698,
+    "precision": 0.8852892490138621,
+    "recall": 0.8653019606732424,
+    "f1": 0.8751815029067321,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "RealMLP (lean, 3-fold, seed 42)",
+    "features": "origstats_categorical",
+    "family": "realmlp",
+    "seed": 42,
+    "n_folds": 3,
+    "n_features": 65,
+    "source": "competition_oof"
+  }
+}

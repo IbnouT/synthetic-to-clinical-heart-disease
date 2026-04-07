@@ -1,0 +1,260 @@
+{
+  "model": "knn",
+  "dataset": "va_longbeach",
+  "tuning": "competition",
+  "imbalance": "smote",
+  "n_folds": 15,
+  "oof_auc": 0.6745624424266351,
+  "oof_pr_auc": 0.8245369068780555,
+  "mean_fold_auc": 0.6753145245559039,
+  "std_fold_auc": 0.08087434039267898,
+  "metrics": {
+    "auc": 0.6745624424266351,
+    "pr_auc": 0.8245369068780555,
+    "accuracy": 0.655,
+    "precision": 0.8125,
+    "recall": 0.697986577181208,
+    "f1": 0.7509025270758123,
+    "threshold": 0.3869696177333272
+  },
+  "runtime_s": 1.21,
+  "best_params": {
+    "n_neighbors": 21,
+    "weights": "distance",
+    "metric": "manhattan",
+    "n_jobs": -1
+  },
+  "per_fold_params": [
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    },
+    {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "metric": "manhattan",
+      "n_jobs": -1
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.6500000000000001,
+      "pr_auc": 0.8380418216348761,
+      "accuracy": 0.725,
+      "precision": 0.8518518518518519,
+      "recall": 0.7666666666666667,
+      "f1": 0.8070175438596491,
+      "threshold": 0.5450129191843941
+    },
+    {
+      "auc": 0.64,
+      "pr_auc": 0.8221656571991173,
+      "accuracy": 0.725,
+      "precision": 0.8518518518518519,
+      "recall": 0.7666666666666667,
+      "f1": 0.8070175438596491,
+      "threshold": 0.482959278521631
+    },
+    {
+      "auc": 0.5916666666666667,
+      "pr_auc": 0.7715629484166746,
+      "accuracy": 0.6,
+      "precision": 0.7692307692307693,
+      "recall": 0.6666666666666666,
+      "f1": 0.7142857142857143,
+      "threshold": 0.3679296129522723
+    },
+    {
+      "auc": 0.665,
+      "pr_auc": 0.8174408636773762,
+      "accuracy": 0.625,
+      "precision": 0.8260869565217391,
+      "recall": 0.6333333333333333,
+      "f1": 0.7169811320754716,
+      "threshold": 0.43314059438622216
+    },
+    {
+      "auc": 0.7429467084639498,
+      "pr_auc": 0.8936022932315841,
+      "accuracy": 0.65,
+      "precision": 0.8,
+      "recall": 0.6896551724137931,
+      "f1": 0.7407407407407407,
+      "threshold": 0.5466081767021541
+    },
+    {
+      "auc": 0.7166666666666667,
+      "pr_auc": 0.8780431733135192,
+      "accuracy": 0.625,
+      "precision": 0.8,
+      "recall": 0.6666666666666666,
+      "f1": 0.7272727272727273,
+      "threshold": 0.2480699204834739
+    },
+    {
+      "auc": 0.6533333333333333,
+      "pr_auc": 0.8572353327342404,
+      "accuracy": 0.675,
+      "precision": 0.7931034482758621,
+      "recall": 0.7666666666666667,
+      "f1": 0.7796610169491526,
+      "threshold": 0.31825168302594636
+    },
+    {
+      "auc": 0.8383333333333334,
+      "pr_auc": 0.9461130271846796,
+      "accuracy": 0.725,
+      "precision": 0.9130434782608695,
+      "recall": 0.7,
+      "f1": 0.7924528301886793,
+      "threshold": 0.4694908604138116
+    },
+    {
+      "auc": 0.6166666666666667,
+      "pr_auc": 0.78396444924834,
+      "accuracy": 0.55,
+      "precision": 0.8,
+      "recall": 0.5333333333333333,
+      "f1": 0.64,
+      "threshold": 0.2959139509710975
+    },
+    {
+      "auc": 0.6081504702194357,
+      "pr_auc": 0.8054613838130917,
+      "accuracy": 0.55,
+      "precision": 0.72,
+      "recall": 0.6206896551724138,
+      "f1": 0.6666666666666666,
+      "threshold": 0.2813167160158562
+    },
+    {
+      "auc": 0.8233333333333335,
+      "pr_auc": 0.9448120903289576,
+      "accuracy": 0.75,
+      "precision": 0.8846153846153846,
+      "recall": 0.7666666666666667,
+      "f1": 0.8214285714285714,
+      "threshold": 0.6452674532490541
+    },
+    {
+      "auc": 0.66,
+      "pr_auc": 0.8537501122007987,
+      "accuracy": 0.65,
+      "precision": 0.8076923076923077,
+      "recall": 0.7,
+      "f1": 0.75,
+      "threshold": 0.2861884703668803
+    },
+    {
+      "auc": 0.61,
+      "pr_auc": 0.7989510191415568,
+      "accuracy": 0.55,
+      "precision": 0.8333333333333334,
+      "recall": 0.5,
+      "f1": 0.625,
+      "threshold": 0.2295433933903547
+    },
+    {
+      "auc": 0.555,
+      "pr_auc": 0.7461682811139135,
+      "accuracy": 0.6,
+      "precision": 0.8181818181818182,
+      "recall": 0.6,
+      "f1": 0.6923076923076923,
+      "threshold": 0.40914320509405533
+    },
+    {
+      "auc": 0.7586206896551724,
+      "pr_auc": 0.8681743718868521,
+      "accuracy": 0.75,
+      "precision": 0.8275862068965517,
+      "recall": 0.8275862068965517,
+      "f1": 0.8275862068965517,
+      "threshold": 0.33978408846532754
+    }
+  ],
+  "scenario": 4,
+  "feature_set": "raw+competition_stats",
+  "n_samples": 200,
+  "prevalence": 74.5
+}

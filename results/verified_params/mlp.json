@@ -1,0 +1,24 @@
+{
+  "model": "mlp",
+  "feature_set": "onehot_freq_origmean",
+  "params": {
+    "hidden_layer_sizes": [
+      256,
+      128,
+      64,
+      32
+    ],
+    "activation": "relu",
+    "solver": "adam",
+    "alpha": 0.0001,
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "batch_size": 256,
+    "max_iter": 500,
+    "early_stopping": true,
+    "n_iter_no_change": 20,
+    "random_state": 42
+  },
+  "cv_auc": 0.955224,
+  "source": "kaggle-s6e2/src/done/run_tabpfn_diversity.py"
+}

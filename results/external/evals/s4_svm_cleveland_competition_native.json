@@ -1,0 +1,174 @@
+{
+  "model": "svm",
+  "dataset": "cleveland",
+  "tuning": "competition",
+  "imbalance": "native",
+  "n_folds": 10,
+  "oof_auc": 0.8905071065099139,
+  "oof_pr_auc": 0.8857244656610236,
+  "mean_fold_auc": 0.9004706690368456,
+  "std_fold_auc": 0.037455802363322035,
+  "metrics": {
+    "auc": 0.8905071065099139,
+    "pr_auc": 0.8857244656610236,
+    "accuracy": 0.8085808580858086,
+    "precision": 0.8292682926829268,
+    "recall": 0.7338129496402878,
+    "f1": 0.7786259541984732,
+    "threshold": 0.4802304974453786
+  },
+  "runtime_s": 1.19,
+  "best_params": {
+    "C": 1.0,
+    "kernel": "linear",
+    "class_weight": "balanced"
+  },
+  "per_fold_params": [
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    },
+    {
+      "C": 1.0,
+      "kernel": "linear",
+      "class_weight": "balanced"
+    }
+  ],
+  "fold_metrics": [
+    {
+      "auc": 0.8571428571428571,
+      "pr_auc": 0.8220067630781916,
+      "accuracy": 0.7741935483870968,
+      "precision": 0.8181818181818182,
+      "recall": 0.6428571428571429,
+      "f1": 0.72,
+      "threshold": 0.4241973756322102
+    },
+    {
+      "auc": 0.9915966386554622,
+      "pr_auc": 0.9901360544217686,
+      "accuracy": 0.9032258064516129,
+      "precision": 1.0,
+      "recall": 0.7857142857142857,
+      "f1": 0.88,
+      "threshold": 0.3872617948858582
+    },
+    {
+      "auc": 0.911764705882353,
+      "pr_auc": 0.8803139450266779,
+      "accuracy": 0.9032258064516129,
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.8888888888888888,
+      "threshold": 0.5
+    },
+    {
+      "auc": 0.9004524886877828,
+      "pr_auc": 0.9006407062673045,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8333333333333334,
+      "recall": 0.7692307692307693,
+      "f1": 0.8,
+      "threshold": 0.4049662365478528
+    },
+    {
+      "auc": 0.8794642857142857,
+      "pr_auc": 0.9015368689281731,
+      "accuracy": 0.7333333333333333,
+      "precision": 0.6875,
+      "recall": 0.7857142857142857,
+      "f1": 0.7333333333333333,
+      "threshold": 0.6501074106962734
+    },
+    {
+      "auc": 0.8660714285714286,
+      "pr_auc": 0.8552726242011955,
+      "accuracy": 0.7333333333333333,
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "f1": 0.6666666666666666,
+      "threshold": 0.3080737103904094
+    },
+    {
+      "auc": 0.8973214285714286,
+      "pr_auc": 0.9083633453381352,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.7692307692307693,
+      "recall": 0.7142857142857143,
+      "f1": 0.7407407407407407,
+      "threshold": 0.24618317626307662
+    },
+    {
+      "auc": 0.8839285714285714,
+      "pr_auc": 0.8958485374274847,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517,
+      "threshold": 0.5
+    },
+    {
+      "auc": 0.9375,
+      "pr_auc": 0.9445854869767911,
+      "accuracy": 0.8333333333333334,
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1": 0.8,
+      "threshold": 0.41685937262736994
+    },
+    {
+      "auc": 0.8794642857142857,
+      "pr_auc": 0.8767725072485133,
+      "accuracy": 0.7666666666666667,
+      "precision": 0.8181818181818182,
+      "recall": 0.6428571428571429,
+      "f1": 0.72,
+      "threshold": 0.21537312272413614
+    }
+  ],
+  "scenario": 4,
+  "feature_set": "raw+competition_stats",
+  "n_samples": 303,
+  "prevalence": 45.9
+}

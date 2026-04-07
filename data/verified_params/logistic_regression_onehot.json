@@ -1,0 +1,13 @@
+{
+  "model": "logistic_regression",
+  "feature_set": "onehot",
+  "params": {
+    "C": 1.0,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 42
+  },
+  "cv_auc": 0.955517,
+  "source": "kaggle-s6e2/src/done/run_sweep.py"
+}

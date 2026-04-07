@@ -1,0 +1,15 @@
+{
+  "id": "19_lr_onehot_multiseed_avg",
+  "metrics": {
+    "auc": 0.9555229667135119,
+    "accuracy": 0.8892190476190476,
+    "precision": 0.885324259291471,
+    "recall": 0.8649443803238758,
+    "f1": 0.875015669602404,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "19_lr_onehot_multiseed_avg",
+    "source": "competition_oof"
+  }
+}

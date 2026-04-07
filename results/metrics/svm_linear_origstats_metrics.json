@@ -1,0 +1,17 @@
+{
+  "id": "svm_linear_origstats",
+  "metrics": {
+    "auc": 0.9535111751096272,
+    "accuracy": 0.8865952380952381,
+    "precision": 0.8809087987984735,
+    "recall": 0.8638397756802878,
+    "f1": 0.8722907933897593,
+    "threshold": 0.5
+  },
+  "metadata": {
+    "label": "Linear SVM (origstats features)",
+    "features": "origstats",
+    "family": "svm",
+    "source": "competition_oof"
+  }
+}
