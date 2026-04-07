@@ -165,5 +165,5 @@ Architectures: DeeperCNN, ViT, Hybrid CNN-Transformer, SimCLR, MoCo, VAE, AC-GAN
 
 ## Data Sources
 
-- **Competition**: [Kaggle Playground Series S6E2](https://www.kaggle.com/competitions/playground-series-s6e2) — ~630K synthetic heart disease samples generated via CTGAN from UCI Cleveland
+- **Competition**: [Kaggle Playground Series S6E2](https://www.kaggle.com/competitions/playground-series-s6e2) — ~630K synthetic heart disease samples generated from UCI Cleveland
 - **External**: [UCI Heart Disease](https://archive.ics.uci.edu/dataset/45/heart+disease) — Cleveland, Hungarian, Switzerland, VA Long Beach
