@@ -42,9 +42,11 @@ Sources that influenced specific parts of this codebase, grouped by the approach
 - **Paper:** SCARF: Self-supervised contrastive learning using random feature corruption (ICLR 2022)
 - **Used in:** `experiments/ssl/models.py` (SCARF architecture), `experiments/ssl/pretrain.py`
 
-### He et al. (2022) — Masked Autoencoders
+### Vincent et al. (2008) — Denoising Autoencoders / He et al. (2022) — Masked Autoencoders
 
-- **Influence:** The MAE and SemiMAE architectures in `experiments/ssl/models.py` follow the mask-and-reconstruct paradigm. SemiMAE extends this by including the target label as a 14th input dimension.
+- **Papers:** Extracting and composing robust features with denoising autoencoders (ICML 2008); Masked autoencoders are scalable vision learners (CVPR 2022)
+- **Used in:** `experiments/ssl/models.py`, `experiments/ssl/pretrain.py`
+- **Influence:** Our tabular MAE adapts the mask-and-reconstruct principle from Vincent et al. (2008) to tabular features. He et al. (2022) further popularized masked reconstruction as a pretraining objective. SemiMAE extends this by including the target label as a 14th input dimension.
 
 ## Tabular-to-Image
 
