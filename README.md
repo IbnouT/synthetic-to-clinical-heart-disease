@@ -2,7 +2,7 @@
 
 Self-supervised transfer, benchmark analysis, and representation robustness for heart disease prediction.
 
-**Course:** SYS5185 — Foundations & Applications of Machine Learning, Winter 2026, University of Ottawa
+**Course:** SYS5185 — Foundations & Applications of Machine Learning, Winter 2026, University of Ottawa  
 **Professor:** Yiwei Lu
 
 **Authors:** Aladji Ibnou A M Alia Dit Papa Toure, Ayegbe Jean-Noel Djahoua, Chadi El Hamdouchi
